@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 2000px;
+    width: 1500px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+header{
+    background-color: aqua;
+    flex-basis:20%;
+    display: flex;
+ 
+}
+logo{
+      background-color: cadetblue;
+      flex-grow: 1;
+}
+nav{
+    flex-grow: 2;
+}
+main{
+    background-color: blueviolet;
+    flex-basis:300%;
+    display: flex;
+    flex-direction: column;
+}
+.hero{
+    background-color: crimson;
+    flex-basis: 30%;
+}
+.appfeatures{
+    background-color:chocolate;
+    display: flex;
+    width: 100vw;
+    justify-content:space-around;
+    
+}
+.appfeatures article{
+    margin: 30px 10px;
+    background-color: darkmagenta;
+    flex-basis: 25%;
+    height: 300px;
+}
+.about{
+    background-color: darkcyan;
+    flex-basis: 30%;
+}
+.review{
+    background-color:orange;
+    display: flex;
+    width: 100vw;
+    justify-content:space-around;
+}
+.review article{
+    margin: 30px 10px;
+    background-color:brown;
+    flex-basis: 25%;
+    height: 300px;
+}
+.plans{
+    background-color:indianred;
+    display: flex;
+    width: 100vw;
+    justify-content:space-around;
+}
+.plans article{
+    margin: 30px 10px;
+    background-color:yellowgreen;
+    flex-basis: 25%;
+    height: 300px;
+    text-align: center;
+}
+.contact{
+    background-color:coral;
+    flex-basis: 30%;
+}
+
+footer{
+    background-color:gray;
+    flex-basis: 20%
+}
